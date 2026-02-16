@@ -215,7 +215,7 @@ function App() {
       </main>
 
       <footer className="bg-gray-900/50 py-8 text-center text-gray-400 text-sm">
-        © 2023 Oshaq Naimat. All rights reserved.
+        © 2026 Oshaq Naimat. All rights reserved.
       </footer>
     </div>
   );
