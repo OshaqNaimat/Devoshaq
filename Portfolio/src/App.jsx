@@ -154,7 +154,7 @@ function App() {
           </h2>
           <div className="max-w-4xl mx-auto text-lg text-gray-300 text-center space-y-4">
             <p>
-              Currently, I am learning web development at PNY training institute
+              I have done Diploma of web development from PNY training institute
               Rawalpindi.
             </p>
             <p>
