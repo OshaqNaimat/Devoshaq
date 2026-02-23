@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import Skills from "./Skills";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -52,7 +53,7 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-900 text-gray-200 relative scroll-smooth">
+    <div className="bg-gray-900 select-none text-gray-200 relative scroll-smooth">
       {/* Background Video */}
       <video
         autoPlay
@@ -166,6 +167,10 @@ function App() {
             </p>
           </div>
         </section>
+        {/* <section></section> */}
+
+        {/* skills section */}
+        <Skills />
 
         {/* Contact */}
         <section
