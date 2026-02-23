@@ -79,6 +79,9 @@ function App() {
             <a href="#about" className="hover:text-blue-400">
               About
             </a>
+            <a href="#about" className="hover:text-blue-400">
+              Skills
+            </a>
             <a href="#projects" className="hover:text-blue-400">
               Projects
             </a>
@@ -137,7 +140,7 @@ function App() {
 
             <div className="float">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-slate-700 overflow-hidden shadow-2xl flex items-center justify-center">
-                <img src="/cui image.jpg" alt="profile" />
+                <img src="../public/profile.jpg" alt="profile" />
               </div>
             </div>
           </div>
@@ -154,12 +157,12 @@ function App() {
           </h2>
           <div className="max-w-4xl mx-auto text-lg text-gray-300 text-center space-y-4">
             <p>
-              I have done Diploma of web development from PNY training institute
-              Rawalpindi.
-            </p>
-            <p>
-              I am a full-stack web developer with expertise in React and
-              Node.js.
+              I am a Full Stack Web and App Developer skilled in Laravel and the
+              MERN stack (MongoDB, Express, React, Node.js), with experience in
+              React Native for cross-platform mobile apps. I build scalable,
+              efficient, and user-friendly web and mobile applications,
+              combining clean code with modern best practices to deliver
+              seamless experiences.
             </p>
           </div>
         </section>
