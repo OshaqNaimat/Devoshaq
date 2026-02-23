@@ -53,7 +53,14 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-900 select-none text-gray-200 relative scroll-smooth">
+    <div
+      className="bg-gray-900 select-none text-gray-200 relative scroll-smooth"
+      style={{
+        backgroundImage:
+          "radial-gradient(rgba(255,255,255,0.7) 1px, transparent 1px)",
+        backgroundSize: "150px 150px",
+      }}
+    >
       {/* Background Video */}
       <video
         autoPlay
@@ -62,7 +69,7 @@ function App() {
         playsInline
         className="fixed right-0 bottom-0 min-w-full min-h-full object-cover -z-20"
       >
-        <source src="/bg-video.mp4" type="video/mp4" />
+        {/* <source src="/bg-video.mp4" type="video/mp4" /> */}
       </video>
       <div className="fixed inset-0 bg-black/60 -z-10"></div>
 
@@ -80,7 +87,7 @@ function App() {
             <a href="#about" className="hover:text-blue-400">
               About
             </a>
-            <a href="#about" className="hover:text-blue-400">
+            <a href="#skills" className="hover:text-blue-400">
               Skills
             </a>
             <a href="#projects" className="hover:text-blue-400">
