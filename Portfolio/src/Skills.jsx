@@ -48,7 +48,7 @@ export default function SkillsShowcase() {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-gray-950 to-black text-white">
+    <section className="py-16 md:py-24 bg-linear-to-b from-gray-950 to-black text-white">
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 tracking-tight">
           Core Technical Skills
@@ -57,7 +57,7 @@ export default function SkillsShowcase() {
           Full-stack & mobile development tools I work with daily
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1  md:grid-cols-3 gap-6 lg:gap-8">
           {skills.map((skill, index) => {
             const gradients = {
               purple: "from-purple-700 via-purple-600 to-indigo-600",
@@ -69,7 +69,7 @@ export default function SkillsShowcase() {
               <div
                 key={index}
                 className={`
-                  group relative overflow-hidden rounded-2xl p-7
+                  group relative cursor-pointer overflow-hidden rounded-2xl p-7
                   bg-gradient-to-br ${gradients[skill.color]}
                   border border-white/10
                   transition-all duration-300 hover:scale-[1.04] hover:shadow-2xl
