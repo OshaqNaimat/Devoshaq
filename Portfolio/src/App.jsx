@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -177,7 +178,12 @@ function App() {
         {/* <section></section> */}
 
         {/* skills section */}
-        <Skills />
+        <div className="" id="skills">
+          <Skills />
+        </div>
+
+        {/* projects */}
+        <Projects />
 
         {/* Contact */}
         <section
@@ -192,7 +198,7 @@ function App() {
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="max-w-xl mx-auto bg-gray-800/70 p-6 rounded-lg shadow-lg"
+            className="max-w-xl mx-auto  bg-gray-800/70 p-6 rounded-lg shadow-lg"
           >
             <input
               name="name"

@@ -47,7 +47,7 @@ export default function SkillsShowcase() {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-linear-to-b from-gray-950 to-black text-white">
+    <section className="py-16 md:py-24 bg-linear-to-b bg-black-900  text-white">
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 tracking-tight">
           Core Technical Skills
