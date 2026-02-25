@@ -1,5 +1,7 @@
+import { useState } from "react";
+
 // Projects.jsx
-export default function Projects() {
+export default function Projects({ setOpen }) {
   return (
     <section
       id="projects"
@@ -73,7 +75,8 @@ export default function Projects() {
 
               <div className="flex gap-4">
                 <button
-                  target="_blank"
+                  // target="_blank"
+                  onClick={() => setOpen(true)}
                   rel="noopener noreferrer"
                   className="inline-flex cursor-pointer items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
                 >

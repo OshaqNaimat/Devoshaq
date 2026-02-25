@@ -4,6 +4,7 @@ import Projects from "./Projects";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [Open, setOpen] = useState(false);
   const revealRef = useRef([]);
   const formRef = useRef(null);
   const msgRef = useRef(null);
@@ -183,7 +184,7 @@ function App() {
         </div>
 
         {/* projects */}
-        <Projects />
+        <Projects setOpen={setOpen} Open={Open} />
 
         {/* Contact */}
         <section
