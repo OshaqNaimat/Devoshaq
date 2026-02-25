@@ -103,7 +103,7 @@ export default function Projects() {
           >
             <div className="relative h-48 md:h-56 overflow-hidden">
               <img
-                src="/projects/chat-app.jpg"
+                src="../public/MiniProjects.png"
                 alt="Real-Time Chat Application"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -143,7 +143,7 @@ export default function Projects() {
 
               <div className="flex gap-4">
                 <a
-                  href="https://your-chat-app.vercel.app"
+                  href="https://small-projects-seven.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
@@ -151,7 +151,7 @@ export default function Projects() {
                   Live Demo →
                 </a>
                 <a
-                  href="https://github.com/yourusername/mern-chat-app"
+                  href="https://github.com/OshaqNaimat/Small-projects.git"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm font-medium transition-colors"
