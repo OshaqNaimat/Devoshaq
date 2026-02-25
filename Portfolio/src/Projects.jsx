@@ -72,14 +72,13 @@ export default function Projects() {
               </div>
 
               <div className="flex gap-4">
-                <a
-                  href="https://your-ecommerce-demo.com"
+                <button
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
+                  className="inline-flex cursor-pointer items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
                 >
                   Live Demo →
-                </a>
+                </button>
                 <a
                   href="https://github.com/OshaqNaimat/GMS.git"
                   target="_blank"
@@ -92,7 +91,6 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Project 2 - Real-Time Chat Application */}
           <div
             className={`
               group relative overflow-hidden rounded-2xl 
@@ -112,36 +110,38 @@ export default function Projects() {
 
             <div className="p-6 md:p-7">
               <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-300 transition-colors">
-                Real-Time Chat Application
+                Small Projects
               </h3>
 
               <p className="text-gray-300 mb-5 line-clamp-3">
-                Modern messaging app with real-time updates, typing indicators,
-                online status, dark mode, file sharing. MERN stack + Socket.io.
+                A collection of small React projects including a Color
+                Generator, Lorem Ipsum Generator, Birthday Reminder, and To-Do
+                List, demonstrating component-based architecture, state
+                management, and interactive UI development.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  MongoDB
+                  JavaScript
                 </span>
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   Express
-                </span>
+                </span> */}
                 <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   React
                 </span>
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   Node.js
-                </span>
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  Socket.io
-                </span>
+                </span> */}
+                {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                  Socket
+                </span> */}
                 <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   Tailwind
                 </span>
               </div>
 
-              <div className="flex gap-4">
+              <div className="flex gap-4 ">
                 <a
                   href="https://small-projects-seven.vercel.app/"
                   target="_blank"
