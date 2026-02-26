@@ -131,7 +131,7 @@ export default function Projects({ setOpen }) {
                   Express
                 </span> */}
                 <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  React
+                  React.js
                 </span>
                 {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   Node.js
