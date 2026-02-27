@@ -133,17 +133,6 @@ function App() {
           className="min-h-screen flex items-center justify-center p-4 relative overflow-hidden"
         >
           {/* Background Video */}
-          <div className="absolute top-0 left-0 w-full h-full pt-20">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover"
-            >
-              <source src="/GMS.mp4" type="video/mp4" />
-            </video>
-          </div>
 
           {/* Overlay optional */}
           <div className="absolute inset-0 bg-black/50"></div>

@@ -218,7 +218,6 @@ export default function Projects({ setOpen }) {
 
                 <div className="flex gap-4">
                   <a
-                    // href="../public/GMS.mp4"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex  items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
