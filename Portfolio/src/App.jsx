@@ -64,15 +64,16 @@ function App() {
       }}
     >
       {/* Background Video */}
-      <video
+      {/* <video
         autoPlay
         loop
         muted
         playsInline
         className="fixed right-0 bottom-0 min-w-full min-h-full object-cover -z-20"
       >
-        {/* <source src="/bg-video.mp4" type="video/mp4" /> */}
-      </video>
+        <source src="/bg-video.mp4" type="video/mp4" />
+      </video> */}
+
       <div className="fixed inset-0 bg-black/60 -z-10"></div>
 
       {/* Header */}
@@ -129,9 +130,27 @@ function App() {
         {/* Hero */}
         <section
           id="hero"
-          className="min-h-screen flex items-center justify-center p-4"
+          className="min-h-screen flex items-center justify-center p-4 relative overflow-hidden"
         >
-          <div className="container mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left space-y-8 md:space-x-12">
+          {/* Background Video */}
+          <div className="absolute top-0 left-0 w-full h-full pt-20">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            >
+              <source src="/GMS.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          {/* Overlay optional */}
+          <div className="absolute inset-0 bg-black/50"></div>
+
+          {/* Hero Content */}
+          <div className="container mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left space-y-8 md:space-x-12 relative z-10">
+            {/* Text */}
             <div className="fade-in-down">
               <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4">
                 Hello, I'm <span className="text-blue-400">Oshaq Naimat</span>.
@@ -148,9 +167,10 @@ function App() {
               </a>
             </div>
 
+            {/* Profile */}
             <div className="float">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-slate-700 overflow-hidden shadow-2xl flex items-center justify-center">
-                <img src="../public/profile.jpg" alt="profile" />
+              <div className="profile-img w-64 h-64 md:w-80 md:h-80 rounded-full bg-slate-700 overflow-hidden shadow-2xl flex items-center justify-center">
+                <img src="/profile.jpg" alt="profile" />
               </div>
             </div>
           </div>

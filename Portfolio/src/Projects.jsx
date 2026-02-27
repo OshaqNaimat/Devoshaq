@@ -74,14 +74,15 @@ export default function Projects({ setOpen }) {
               </div>
 
               <div className="flex gap-4">
-                <button
-                  // target="_blank"
-                  onClick={() => setOpen(true)}
+                <a
+                  href="https://oshaq-naimat.free.nf/"
+                  target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex cursor-pointer items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
+                  className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
                 >
                   Live Demo →
-                </button>
+                </a>
+
                 <a
                   href="https://github.com/OshaqNaimat/GMS.git"
                   target="_blank"
