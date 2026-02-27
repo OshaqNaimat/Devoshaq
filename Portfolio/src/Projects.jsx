@@ -206,13 +206,25 @@ export default function Projects({ setOpen }) {
                     Expo
                   </span>
                   <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                    Firebase
+                    MongoDB
                   </span>
                   <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                     Redux
                   </span>
                   <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                    NativeWind
+                    React.js
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Express.js
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Node.js
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Postman.js
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Tailwind
                   </span>
                 </div>
 
