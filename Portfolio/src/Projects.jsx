@@ -40,7 +40,7 @@ export default function Projects({ setOpen }) {
                 Gym Management System
               </h3>
 
-              <p className="text-gray-300 mb-5 line-clamp-3">
+              <p className="text-gray-300 mb-5 ">
                 Developed a responsive GMS to streamline gym operations,
                 including member management, membership plans, trainers, and
                 scheduling. I built the complete frontend with a clean,
@@ -117,51 +117,53 @@ export default function Projects({ setOpen }) {
                 Small Projects
               </h3>
 
-              <p className="text-gray-300 mb-5 line-clamp-3">
+              <p className="text-gray-300 mb-5 ">
                 A collection of small React projects including a Color
                 Generator, Lorem Ipsum Generator, Birthday Reminder, and To-Do
                 List, demonstrating component-based architecture, state
                 management, and interactive UI development.
               </p>
 
-              <div className="flex flex-wrap gap-2 mb-6">
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  JavaScript
-                </span>
-                {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+              <div className="absolute bottom-3 left-7 right-0 flex flex-col ">
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    JavaScript
+                  </span>
+                  {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   Express
                 </span> */}
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  React.js
-                </span>
-                {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    React.js
+                  </span>
+                  {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   Node.js
                 </span> */}
-                {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                  {/* <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
                   Socket
                 </span> */}
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  Tailwind
-                </span>
-              </div>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Tailwind
+                  </span>
+                </div>
 
-              <div className="flex gap-4 ">
-                <a
-                  href="https://small-projects-seven.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
-                >
-                  Live Demo →
-                </a>
-                <a
-                  href="https://github.com/OshaqNaimat/Small-projects.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm font-medium transition-colors"
-                >
-                  GitHub →
-                </a>
+                <div className="flex gap-4 ">
+                  <a
+                    href="https://small-projects-seven.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
+                  >
+                    Live Demo →
+                  </a>
+                  <a
+                    href="https://github.com/OshaqNaimat/Small-projects.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm font-medium transition-colors"
+                  >
+                    GitHub →
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -177,7 +179,7 @@ export default function Projects({ setOpen }) {
           >
             <div className="relative h-48 md:h-56 overflow-hidden">
               <img
-                src="/projects/fitness-app.jpg"
+                src="https://cdn-icons-png.freepik.com/256/10295/10295918.png?semt=ais_white_label"
                 alt="Fitness Tracker Mobile App"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -186,49 +188,52 @@ export default function Projects({ setOpen }) {
 
             <div className="p-6 md:p-7">
               <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-300 transition-colors">
-                Fitness Tracker Mobile App
+                Pixela Website and App
               </h3>
 
-              <p className="text-gray-300 mb-5 line-clamp-3">
-                Cross-platform mobile app for tracking workouts, calories,
-                progress photos, goal setting. React Native + Expo + Firebase.
+              <p className="text-gray-300 mb-5 ">
+                An Instagram-style social media application built with the MERN
+                stack. Currently includes post creation functionality, with
+                upcoming features like authentication, user profiles, likes,
+                comments, and explore feed.
               </p>
+              <div className="absolute bottom-3 left-7 right-0 flex flex-col ">
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    React Native
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Expo
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Firebase
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    Redux
+                  </span>
+                  <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
+                    NativeWind
+                  </span>
+                </div>
 
-              <div className="flex flex-wrap gap-2 mb-6">
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  React Native
-                </span>
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  Expo
-                </span>
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  Firebase
-                </span>
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  Redux
-                </span>
-                <span className="px-3 py-1 text-xs font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-gray-200">
-                  NativeWind
-                </span>
-              </div>
-
-              <div className="flex gap-4">
-                <a
-                  href="https://your-fitness-tracker-app.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
-                >
-                  Live Demo →
-                </a>
-                <a
-                  href="https://github.com/yourusername/react-native-fitness"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm font-medium transition-colors"
-                >
-                  GitHub →
-                </a>
+                <div className="flex gap-4">
+                  <a
+                    // href="../public/GMS.mp4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex  items-center px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors"
+                  >
+                    In Progress →
+                  </a>
+                  <a
+                    href="https://github.com/yourusername/react-native-fitness"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-sm font-medium transition-colors"
+                  >
+                    GitHub →
+                  </a>
+                </div>
               </div>
             </div>
           </div>
