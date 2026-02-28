@@ -212,7 +212,7 @@ export default function Projects({ setOpen }) {
                         Pixela_Web
                       </a>
                     </li>
-                    <li className="cursor-pointer p-2 hover:bg-blue-500">
+                    <li className="cursor-pointer p-2 hover:bg-blue-500 rounded-md">
                       <a
                         target="_blank"
                         href="https://github.com/OshaqNaimat/Pixera_App.git"
