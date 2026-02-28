@@ -158,7 +158,7 @@ function App() {
                   Get in Touch
                 </a>
                 <a
-                  href="../public/Final CV.pdf"
+                  href="/Final CV.pdf"
                   download="My-CV.pdf"
                   className="px-8 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-bold"
                 >
