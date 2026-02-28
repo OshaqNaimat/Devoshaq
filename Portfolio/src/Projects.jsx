@@ -205,12 +205,18 @@ export default function Projects({ setOpen }) {
                     className="list-unstyled  absolute bottom-5 right-2 bg-black rounded-md p-2"
                   >
                     <li className="cursor-pointer p-2 hover:bg-blue-500 rounded-md">
-                      <a href="https://github.com/OshaqNaimat/Pixela_Web.git">
+                      <a
+                        target="_blank"
+                        href="https://github.com/OshaqNaimat/Pixela_Web.git"
+                      >
                         Pixela_Web
                       </a>
                     </li>
                     <li className="cursor-pointer p-2 hover:bg-blue-500">
-                      <a href="https://github.com/OshaqNaimat/Pixera_App.git">
+                      <a
+                        target="_blank"
+                        href="https://github.com/OshaqNaimat/Pixera_App.git"
+                      >
                         Pixela_App
                       </a>
                     </li>
