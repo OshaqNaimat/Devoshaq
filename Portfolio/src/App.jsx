@@ -74,7 +74,7 @@ function App() {
         <source src="/bg-video.mp4" type="video/mp4" />
       </video> */}
 
-      <div className="fixed inset-0 bg-black/60 -z-10"></div>
+      <div className="fixed  bg-black/60 -z-10"></div>
 
       {/* Header */}
       <header className="bg-slate-900/50 backdrop-blur-sm fixed top-0 w-full z-50">
@@ -135,7 +135,7 @@ function App() {
           {/* Background Video */}
 
           {/* Overlay optional */}
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute  bg-gray-900"></div>
 
           {/* Hero Content */}
           <div className="container mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left space-y-8 md:space-x-12 relative z-10">
