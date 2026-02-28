@@ -146,14 +146,25 @@ function App() {
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8">
                 A passionate{" "}
-                <span className="font-bold text-purple-400">Web Developer</span>
+                <span className="font-bold text-purple-400">
+                  Web and App Developer
+                </span>
               </p>
-              <a
-                href="#contact"
-                className="px-8 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-bold"
-              >
-                Get in Touch
-              </a>
+              <div className="flex gap-2">
+                <a
+                  href="#contact"
+                  className="px-8 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-bold"
+                >
+                  Get in Touch
+                </a>
+                <a
+                  href="../public/Final CV.pdf"
+                  download="My-CV.pdf"
+                  className="px-8 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-bold"
+                >
+                  Download CV
+                </a>
+              </div>
             </div>
 
             {/* Profile */}
