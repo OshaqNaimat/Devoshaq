@@ -47,79 +47,55 @@ const projectsData = [
     ],
     gradient: "from-teal-800/40 via-teal-700/30 to-emerald-800/40",
     inProgress: true,
-    githubLinks: [
-      {
-        label: "Pixela_Web",
-        url: "https://github.com/OshaqNaimat/Pixela_Web.git",
-      },
-      {
-        label: "Pixela_App",
-        url: "https://github.com/OshaqNaimat/Pixera_App.git",
-      },
-    ],
+    links: {
+      demo: "https://oshaq-naimat.free.nf/",
+      github: "https://github.com/OshaqNaimat/GMS.git",
+    },
   },
   {
     id: 4,
-    title: "Pixela Website and App",
+    title: "Arsha Bootstrap",
     description:
-      "An Instagram-style social media application built with the MERN stack. Currently includes post creation functionality, with upcoming features like authentication, user profiles, likes, comments, and explore feed.",
-    image:
-      "https://cdn-icons-png.freepik.com/256/10295/10295918.png?semt=ais_white_label",
-    tags: [
-      "React Native",
-      "Expo",
-      "MongoDB",
-      "Redux",
-      "React.js",
-      "Express.js",
-      "Node.js",
-      "Postman",
-      "Tailwind",
-    ],
-    gradient: "from-teal-800/40 via-teal-700/30 to-emerald-800/40",
-    inProgress: true,
-    githubLinks: [
-      {
-        label: "Pixela_Web",
-        url: "https://github.com/OshaqNaimat/Pixela_Web.git",
-      },
-      {
-        label: "Pixela_App",
-        url: "https://github.com/OshaqNaimat/Pixera_App.git",
-      },
-    ],
+      "A fully responsive clone of the Arsha Bootstrap template, recreated using modern Bootstrap components and utilities. This project demonstrates my skills in layout design, responsiveness, and UI building with Bootstrap.",
+    image: "/arsha.png",
+    tags: ["JavaScript", "React.js", "Tailwind"],
+    gradient: "from-blue-800/40 via-blue-700/30 to-cyan-800/40",
+    links: {
+      demo: "https://oshaqnaimat.github.io/Arsha/",
+      github: "https://github.com/OshaqNaimat/Arsha.git",
+    },
   },
-  {
-    id: 4,
-    title: "Pixela Website and App",
-    description:
-      "An Instagram-style social media application built with the MERN stack. Currently includes post creation functionality, with upcoming features like authentication, user profiles, likes, comments, and explore feed.",
-    image:
-      "https://cdn-icons-png.freepik.com/256/10295/10295918.png?semt=ais_white_label",
-    tags: [
-      "React Native",
-      "Expo",
-      "MongoDB",
-      "Redux",
-      "React.js",
-      "Express.js",
-      "Node.js",
-      "Postman",
-      "Tailwind",
-    ],
-    gradient: "from-teal-800/40 via-teal-700/30 to-emerald-800/40",
-    inProgress: true,
-    githubLinks: [
-      {
-        label: "Pixela_Web",
-        url: "https://github.com/OshaqNaimat/Pixela_Web.git",
-      },
-      {
-        label: "Pixela_App",
-        url: "https://github.com/OshaqNaimat/Pixera_App.git",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "Pixela Website and App",
+  //   description:
+  //     "An Instagram-style social media application built with the MERN stack. Currently includes post creation functionality, with upcoming features like authentication, user profiles, likes, comments, and explore feed.",
+  //   image:
+  //     "https://cdn-icons-png.freepik.com/256/10295/10295918.png?semt=ais_white_label",
+  //   tags: [
+  //     "React Native",
+  //     "Expo",
+  //     "MongoDB",
+  //     "Redux",
+  //     "React.js",
+  //     "Express.js",
+  //     "Node.js",
+  //     "Postman",
+  //     "Tailwind",
+  //   ],
+  //   gradient: "from-teal-800/40 via-teal-700/30 to-emerald-800/40",
+  //   inProgress: true,
+  //   githubLinks: [
+  //     {
+  //       label: "Pixela_Web",
+  //       url: "https://github.com/OshaqNaimat/Pixela_Web.git",
+  //     },
+  //     {
+  //       label: "Pixela_App",
+  //       url: "https://github.com/OshaqNaimat/Pixera_App.git",
+  //     },
+  //   ],
+  // },
 ];
 
 function ProjectCard({ project }) {
@@ -258,25 +234,46 @@ export default function Projects({ setOpen }) {
 
         {/* Carousel wrapper */}
         <div className="relative">
-          {/* Left Arrow */}
           <button
             onClick={() => setStartIndex((i) => Math.max(i - 1, 0))}
             disabled={!canGoLeft}
-            className={`absolute -left-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full border transition-all duration-200
-              ${
-                canGoLeft
-                  ? "bg-gray-800 border-white/20 hover:bg-blue-600 hover:border-blue-500 text-white cursor-pointer"
-                  : "bg-gray-800/40 border-white/10 text-white/20 cursor-not-allowed"
-              }`}
+            className={`absolute -left-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full border transition-all duration-300 group
+  ${
+    canGoLeft
+      ? "bg-gray-800 border-white/20 hover:bg-blue-600 hover:border-blue-500 text-white cursor-pointer hover:scale-110"
+      : "bg-gray-800/40 border-white/10 text-white/20 cursor-not-allowed"
+  }`}
           >
-            ‹
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              className="w-5 h-5 transition-transform duration-300 group-hover:-translate-x-1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
           </button>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
-            {visibleProjects.map((project) => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
+          <div className="relative overflow-hidden w-full">
+            <div
+              className="flex transition-transform duration-500 ease-in-out will-change-transform"
+              style={{
+                transform: `translateX(-${startIndex * (100 / VISIBLE_COUNT)}%)`,
+              }}
+            >
+              {projectsData.map((project) => (
+                <div key={project.id} className="flex-shrink-0 w-1/3 px-2">
+                  <ProjectCard project={project} />
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Right Arrow */}
@@ -287,14 +284,27 @@ export default function Projects({ setOpen }) {
               )
             }
             disabled={!canGoRight}
-            className={`absolute -right-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full border transition-all duration-200
-              ${
-                canGoRight
-                  ? "bg-gray-800 border-white/20 hover:bg-blue-600 hover:border-blue-500 text-white cursor-pointer"
-                  : "bg-gray-800/40 border-white/10 text-white/20 cursor-not-allowed"
-              }`}
+            className={`absolute -right-5 top-1/2 -translate-y-1/2 z-20 w-10 h-10 flex items-center justify-center rounded-full border transition-all duration-300 group
+  ${
+    canGoRight
+      ? "bg-gray-800 border-white/20 hover:bg-blue-600 hover:border-blue-500 text-white cursor-pointer hover:scale-110"
+      : "bg-gray-800/40 border-white/10 text-white/20 cursor-not-allowed"
+  }`}
           >
-            ›
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
           </button>
         </div>
 
