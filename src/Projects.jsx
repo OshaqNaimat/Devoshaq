@@ -4,8 +4,16 @@ const projectsData = [
   {
     id: 1,
     title: "Gym Management System",
-    description:
-      "Developed a responsive GMS to streamline gym operations, including member management, membership plans, trainers, and scheduling. Built the complete frontend with a clean, user-friendly interface and currently working on integrating backend functionality and a database to make it fully dynamic with authentication and CRUD features.",
+    description: (
+      <>
+        A responsive Laravel-based Gym Management System for managing members,
+        memberships, trainers, attendance, payments, and gym operations.
+        <br />
+        <strong>Email: Iamadmin@gmail.com</strong>
+        <br />
+        <strong>Password:987654321</strong>
+      </>
+    ),
     image: "/GMSDashboard.png",
     tags: ["HTML", "CSS", "Bootstrap", "Javascript", "PHP", "Laravel", "MySQL"],
     gradient: "from-purple-800/40 via-purple-700/30 to-indigo-800/40",
@@ -16,15 +24,24 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Small Projects",
-    description:
-      "A collection of small React projects including a Color Generator, Lorem Ipsum Generator, Birthday Reminder, and To-Do List, demonstrating component-based architecture, state management, and interactive UI development.",
-    image: "/MiniProjects.png",
-    tags: ["JavaScript", "React.js", "Tailwind"],
+    title: "Learning Management System",
+    description: (
+      <>
+        A comprehensive Laravel-based School Management System featuring student
+        and staff management, attendance tracking, timetable scheduling, fee
+        management, and role-based dashboards.
+        <br />
+        <strong>Email: admin1505@gmail.com</strong>
+        <br />
+        <strong>Password: #classdesklms</strong>
+      </>
+    ),
+    image: "/lms.png",
+    tags: ["JavaScript", "Laravel", "CSS", "PHP", "Mysql", "Tailwind"],
     gradient: "from-blue-800/40 via-blue-700/30 to-cyan-800/40",
     links: {
-      demo: "https://small-projects-seven.vercel.app/",
-      github: "https://github.com/OshaqNaimat/Small-projects.git",
+      demo: "http://classdesk.free.nf/",
+      github: "https://github.com/OshaqNaimat/Learning-Management-System.git",
     },
   },
   {
